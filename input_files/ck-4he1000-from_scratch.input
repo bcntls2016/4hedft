@@ -8,7 +8,7 @@
 	r_cutoff_gs	= 2.5d0 
 	umax_gs 	= 3.1503766445E+03
 	title   	= 'Pure 4He_1000 droplet'
- 	nthread		= 4
+ 	nthread		= 5
 	mode    	= 3
 	xmax 		= 38.4d0
 	ymax 		= 38.4d0

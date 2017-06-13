@@ -23,7 +23,7 @@ cd ${WORKDIR}
 date
 echo "Execution starting"
 #time srun -N 1 -n 1 -c 5 $(placement 1 5) ./4hedft < pure-4he1000.input > pure-4he1000.res 2> pure-4he1000.err
-time ./4hedft < pure-4he1000.input > pure-4he1000.res 2> pure-4he1000.err
+time ./4hedft < ck-4he1000-constrained.input > ck-4he1000-constrained.res 2> ck-4he1000-constrained.input.err
 date
 echo "Execution finished"
 

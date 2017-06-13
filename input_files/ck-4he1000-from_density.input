@@ -9,7 +9,7 @@
 	umax_gs 	= 3.1503766445E+03
 	filedenin  	= 'den.in'
 	title   	= 'Pure 4He_1000 droplet'
- 	nthread		= 4
+ 	nthread		= 5
 	mode    	= 4
 	xmax 		= 38.4d0
 	ymax 		= 38.4d0
