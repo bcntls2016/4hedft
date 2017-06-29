@@ -3,7 +3,7 @@
 	rimpur		= 3.00d0
 	ximp		= 0.0d0
 	yimp		= 0.0d0
-	zimp 		= 13.2d0
+	zimp 		= 23.2d0
 	selec_gs	= 'K'
 	r_cutoff_gs	= 2.5d0 
 	umax_gs 	= 3.1503766445E+03
