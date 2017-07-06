@@ -12,11 +12,11 @@ real    (kind=8) , allocatable  :: ualphas(:,:,:)  ! Piece of field due to the a
 end module alphasterm
 !------------------------------------------------------------------
 module deriva
-integer (kind=4)              :: npd=7             ! Number of points for derivatives
+integer (kind=4)              :: npd=13             ! Number of points for derivatives
 real    (kind=8), allocatable :: dxden(:,:,:)      ! Partial derivative in X for den in Real-space
 real    (kind=8), allocatable :: dyden(:,:,:)      ! Partial derivative in X for den in Real-space
 real    (kind=8), allocatable :: dzden(:,:,:)      ! Partial derivative in X for den in Real-space
-integer (kind=4)              :: icon=8            ! Bounday conditions for derivatives
+integer (kind=4)              :: icon=13            ! Bounday conditions for derivatives
 end module deriva
 !------------------------------------------------------------------
 module energies
@@ -50,7 +50,7 @@ end module field
 !------------------------------------------------------------------
 module fftmodule
 
-character (len=15)            :: fftwplan="FFTW_ESTIMATE"
+character (len=15)            :: fftwplan="FFTW_PATIENT"
 real    (kind=8),target ,allocatable :: fin(:,:,:)  ! Work Array for FFT
 complex (kind=8),target ,allocatable :: fout(:,:,:) ! Work Array for FFT
 integer (kind=8)              :: pfftfw      ! Pointer for FFT forward
@@ -233,8 +233,8 @@ complex (kind=8),target, allocatable :: fden(:,:,:)     ! Density in K-space
 real    (kind=8), allocatable :: dencg(:,:,:)    ! Coarse-Graining density
 real    (kind=8), allocatable :: wcgk(:,:,:)     ! Kernel of coarse graining
                                                  ! in fourier space
-real    (kind=8)              :: denmin=1.d-99          ! Minimum value for densities.
-real    (kind=8)              :: psimin=3.162277661d-50    ! Minimum value for w.f.
+real    (kind=8)              :: denmin=-1d0          ! Minimum value for densities.
+real    (kind=8)              :: psimin=-5d0    ! Minimum value for w.f.
 real    (kind=8)              :: defx=1.0d0, defy=1.0d0, defz=1.0d0  ! Deform factors for the initial density
 
 end module rho
