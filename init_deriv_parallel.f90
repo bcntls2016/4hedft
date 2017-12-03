@@ -111,8 +111,9 @@ If(n.Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -211,8 +212,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon        
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon        
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -394,8 +396,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
     Caux(j+(i-1)*npd)=Cdc(id,i,j)
@@ -668,8 +671,9 @@ If(n.Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -768,8 +772,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -951,8 +956,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -1226,8 +1232,9 @@ If(n.Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -1325,8 +1332,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
     Caux(j+(i-1)*npd)=Cdc(id,i,j)
@@ -1430,8 +1438,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
     Caux(j+(i-1)*npd)=Cdc(id,i,j)
@@ -1550,8 +1559,9 @@ If(id.Gt.ndmax)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
 
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
@@ -1633,8 +1643,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
     Caux(j+(i-1)*npd)=Cdc(id,i,j)
@@ -1738,8 +1749,9 @@ If(nn(iv).Lt.npd)Then
   return
 Endif
 
-If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
-  Icon_save=Icon
+If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18)Then
+!If(Icon.Ne.0.And.Icon.Ne.8.And.Icon.Ne.18.And.Icon_save.Ne.Icon)Then
+!  Icon_save=Icon
   Allocate(Caux(kkp1))
   ForAll(i=1:k,j=1:k)
     Caux(j+(i-1)*npd)=Cdc(id,i,j)
